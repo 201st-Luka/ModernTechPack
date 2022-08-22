@@ -1,0 +1,226 @@
+{
+	title: "I need more protection",
+	x: -4.0d,
+	y: 2.5d,
+	dependencies: [
+		"41560907"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c07c0821",
+		type: "item",
+		items: [{
+			id: "conarm:chestplate",
+			tag: {
+				StatsOriginal: {
+					Toughness: 3.0f,
+					FreeModifiers: 3,
+					Durability: 579,
+					Defense: 20.0f
+				},
+				Stats: {
+					Toughness: 3.0f,
+					FreeModifiers: 3,
+					Durability: 579,
+					Defense: 20.0f
+				},
+				TinkerData: {
+					Materials: [
+						"manyullyn",
+						"manyullyn",
+						"manyullyn"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "vengeful_armor",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "prideful_armor",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"vengeful_armor",
+					"prideful_armor",
+					"leveling_armor"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5f6af834",
+		type: "item",
+		items: [{
+			id: "conarm:leggings",
+			tag: {
+				StatsOriginal: {
+					Toughness: 3.0f,
+					FreeModifiers: 3,
+					Durability: 544,
+					Defense: 20.0f
+				},
+				Stats: {
+					Toughness: 3.0f,
+					FreeModifiers: 3,
+					Durability: 544,
+					Defense: 20.0f
+				},
+				TinkerData: {
+					Materials: [
+						"manyullyn",
+						"manyullyn",
+						"manyullyn"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "vengeful_armor",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "prideful_armor",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"vengeful_armor",
+					"prideful_armor",
+					"leveling_armor"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ba04d494",
+		type: "item",
+		items: [{
+			id: "conarm:helmet",
+			tag: {
+				StatsOriginal: {
+					Toughness: 3.0f,
+					FreeModifiers: 3,
+					Durability: 399,
+					Defense: 20.0f
+				},
+				Stats: {
+					Toughness: 3.0f,
+					FreeModifiers: 3,
+					Durability: 399,
+					Defense: 20.0f
+				},
+				TinkerData: {
+					Materials: [
+						"manyullyn",
+						"manyullyn",
+						"manyullyn"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "vengeful_armor",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "prideful_armor",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"vengeful_armor",
+					"prideful_armor",
+					"leveling_armor"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "76c8ad4e",
+		type: "item",
+		items: [{
+			id: "conarm:boots",
+			tag: {
+				StatsOriginal: {
+					Toughness: 3.0f,
+					FreeModifiers: 3,
+					Durability: 471,
+					Defense: 20.0f
+				},
+				Stats: {
+					Toughness: 3.0f,
+					FreeModifiers: 3,
+					Durability: 471,
+					Defense: 20.0f
+				},
+				TinkerData: {
+					Materials: [
+						"manyullyn",
+						"manyullyn",
+						"manyullyn"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "vengeful_armor",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "prideful_armor",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"vengeful_armor",
+					"prideful_armor",
+					"leveling_armor"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a5b9da2d",
+		type: "item",
+		item: "tconstruct:materials 1 19"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 4.0d,
+	dependencies: [
+		"29648ac4"
+	],
+	tasks: [{
+		uid: "ac2517cc",
+		type: "item",
+		items: [{
+			item: "projectred-exploration:ore 1 2"
+		}]
+	}]
+}

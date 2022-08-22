@@ -1,0 +1,6 @@
+{
+  "inventory": {
+    "0:1": "minecraft:potion,1,0,{Potion:\"minecraft:water\"}",
+    "0:0": "ftbquests:book"
+  }
+}

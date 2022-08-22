@@ -1,0 +1,12 @@
+{
+	x: -3.5d,
+	y: -3.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "027a7fed",
+		type: "item",
+		items: [{
+			item: "simplegenerators:ender_simple"
+		}]
+	}]
+}

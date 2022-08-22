@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "673096ad",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_ore"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 2.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "e6fb366c",
+		type: "item",
+		items: [{
+			item: "matteroverdrive:tritanium_ore"
+		}]
+	}]
+}

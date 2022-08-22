@@ -1,0 +1,11 @@
+{
+	x: -3.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "07ecfbd0",
+		type: "item",
+		items: [{
+			item: "tp:ender_ore"
+		}]
+	}]
+}

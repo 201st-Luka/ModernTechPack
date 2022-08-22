@@ -1,0 +1,15 @@
+{
+	x: 0.5d,
+	y: 1.5d,
+	dependencies: [
+		"64306418"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7d6fdfd2",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ore"
+		}]
+	}]
+}

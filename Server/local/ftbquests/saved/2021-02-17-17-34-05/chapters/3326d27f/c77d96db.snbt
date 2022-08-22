@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "3b18b637",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald_ore"
+		}]
+	}]
+}

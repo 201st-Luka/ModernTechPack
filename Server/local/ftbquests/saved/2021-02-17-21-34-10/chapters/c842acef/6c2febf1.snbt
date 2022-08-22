@@ -1,0 +1,47 @@
+{
+	title: "The last flight?",
+	x: -2.0d,
+	y: -2.5d,
+	dependencies: [
+		"c674462c"
+	],
+	tasks: [{
+		uid: "fb2758e6",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			},
+			Damage: 10s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ffc24682",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			},
+			Damage: 19s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3fbb93cc",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			},
+			Damage: 29s
+		}],
+		ignore_nbt: 1b
+	}]
+}

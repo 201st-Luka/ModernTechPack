@@ -1,0 +1,12 @@
+{
+	x: -6.5d,
+	y: 0.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "fe59b786",
+		type: "item",
+		items: [{
+			item: "simplegenerators:fluid_combustion_simple"
+		}]
+	}]
+}

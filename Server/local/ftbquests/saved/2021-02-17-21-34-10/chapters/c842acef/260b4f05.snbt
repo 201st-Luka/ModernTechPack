@@ -1,0 +1,76 @@
+{
+	title: "The beginning of everything",
+	x: -5.0d,
+	y: 0.0d,
+	text: [
+		"Craft the Tinker's construct tooltables"
+	],
+	dependencies: [
+		"82170231"
+	],
+	hide: true,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "5383804d",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "6e68c4b1",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}]
+	},
+	{
+		uid: "c4ee4261",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 5"
+		}]
+	},
+	{
+		uid: "2685887e",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	},
+	{
+		uid: "1047e954",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "5fd672b7",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	}],
+	rewards: [{
+		uid: "b41eecb6",
+		type: "item",
+		item: "tconstruct:book"
+	}]
+}

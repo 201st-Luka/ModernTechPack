@@ -1,0 +1,15 @@
+{
+	x: 1.5d,
+	y: 7.0d,
+	dependencies: [
+		"d39e6d3b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f70063e9",
+		type: "item",
+		items: [{
+			item: "tp:wub_ore"
+		}]
+	}]
+}

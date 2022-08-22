@@ -1,0 +1,11 @@
+{
+	x: -0.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "872ee193",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz_ore"
+		}]
+	}]
+}

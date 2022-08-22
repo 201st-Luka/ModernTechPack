@@ -1,0 +1,25 @@
+{
+	x: -2.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "864b365f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_ore"
+		}]
+	},
+	{
+		uid: "88d9edf5",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_ore 1 1"
+		}]
+	},
+	{
+		uid: "73720e79",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_ore 1 2"
+		}]
+	}]
+}
