@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 7.5d,
+	dependencies: [
+		"d39e6d3b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "69c3cd92",
+		type: "item",
+		items: [{
+			item: "bigreactors:orebenitoite"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	dependencies: [
+		"29648ac4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa60b559",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ore 1 5"
+		}]
+	}]
+}

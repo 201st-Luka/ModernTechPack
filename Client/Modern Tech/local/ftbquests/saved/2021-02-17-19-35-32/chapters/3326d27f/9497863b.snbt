@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: -1.5d,
+	dependencies: [
+		"64306418"
+	],
+	tasks: [{
+		uid: "07ecfbd0",
+		type: "item",
+		items: [{
+			item: "tp:ender_ore"
+		}]
+	}]
+}

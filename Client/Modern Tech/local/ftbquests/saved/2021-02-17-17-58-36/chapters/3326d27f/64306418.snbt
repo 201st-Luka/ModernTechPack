@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: -0.5d,
+	dependencies: [
+		"1ff4333c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e8817e1d",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}]
+	}]
+}

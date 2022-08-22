@@ -1,0 +1,7 @@
+{
+	title: "Advanced Rocketry",
+	icon: "advancedrocketry:satelliteidchip",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "octagon"
+}

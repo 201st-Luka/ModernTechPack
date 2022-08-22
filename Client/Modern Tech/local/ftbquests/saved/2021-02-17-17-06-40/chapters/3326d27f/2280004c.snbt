@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "b5346f0d",
+		type: "item",
+		items: [{
+			item: "tp:nether_wub_ore"
+		}]
+	}]
+}

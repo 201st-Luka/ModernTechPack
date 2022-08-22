@@ -1,0 +1,11 @@
+{
+	x: -4.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "8bb672ae",
+		type: "item",
+		items: [{
+			item: "projectred-exploration:ore 1 1"
+		}]
+	}]
+}

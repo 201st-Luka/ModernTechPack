@@ -1,0 +1,18 @@
+{
+	x: -4.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "17b8fb47",
+		type: "item",
+		items: [{
+			item: "libvulpes:ore0"
+		}]
+	},
+	{
+		uid: "0a85ebea",
+		type: "item",
+		items: [{
+			item: "matteroverdrive:dilithium_ore"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 4.5d,
+	y: -1.5d,
+	dependencies: [
+		"e756c3b0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "19431a8d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	}]
+}

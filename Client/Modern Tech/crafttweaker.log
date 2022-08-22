@@ -1,0 +1,52 @@
+[PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
+[PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
+[PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [nc_preinit]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [nc_preinit]
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [nc_preinit], [recipeevent | crafttweaker]]
+[INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
+[AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
+[SERVER_STARTED][SERVER][INFO] Started ZsLint Socket lint on Port 24532
+Infuse Types:
+CARBON
+FUNGI
+REDSTONE
+OBSIDIAN
+DIAMOND
+TIN
+BIO
+<advanced_solar_panels:crafting:10>
+<libvulpes:productingot:10>
+<libvulpes:metal0:10>
+<libvulpes:productnugget:10>
+<libvulpes:productdust:10>
+<advanced_solar_panels:crafting:10>
+<libvulpes:metal0:10>
+<libvulpes:productingot:10>
+<libvulpes:ore0:10>
+<techreborn:ingot:7>
+<techreborn:dust:64>
+<techreborn:storage:13>
+<techreborn:ore:1>
+<libvulpes:productnugget:10>
+<advancedrocketry:productnugget:1>
+<libvulpes:productplate:10>
+<techreborn:plates:24>
+<techreborn:nuggets:7>
+<libvulpes:productdust:10>
+<immersiveengineering:ore>
+<ic2:resource:1>
+<mekanism:oreblock:1>
+<nuclearcraft:ore>
+<projectred-exploration:ore:3>
+<techreborn:ore2>
+<techguns:basicore>
+<libvulpes:ore0:4>

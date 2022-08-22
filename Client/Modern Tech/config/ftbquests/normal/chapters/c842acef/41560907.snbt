@@ -1,0 +1,274 @@
+{
+	title: "The classic armor",
+	x: -5.0d,
+	y: 2.5d,
+	dependencies: [
+		"260b4f05"
+	],
+	hide: true,
+	tasks: [{
+		uid: "271a5ee3",
+		type: "item",
+		items: [{
+			id: "conarm:chestplate",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 291,
+					Defense: 15.0f
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 291,
+					Defense: 15.0f
+				},
+				TinkerData: {
+					Materials: [
+						"iron",
+						"iron",
+						"iron"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "magnetic_armor",
+					color: -3487030,
+					magnetic2_armor: 1b,
+					level: 3,
+					magnetic1_armor: 1b
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"magnetic2_armor",
+					"magnetic1_armor",
+					"leveling_armor"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3c7b4b83",
+		type: "item",
+		items: [{
+			id: "conarm:leggings",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 273,
+					Defense: 15.0f
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 273,
+					Defense: 15.0f
+				},
+				TinkerData: {
+					Materials: [
+						"iron",
+						"iron",
+						"iron"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "magnetic_armor",
+					color: -3487030,
+					magnetic2_armor: 1b,
+					level: 3,
+					magnetic1_armor: 1b
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"magnetic2_armor",
+					"magnetic1_armor",
+					"leveling_armor"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8fc4096b",
+		type: "item",
+		items: [{
+			id: "conarm:helmet",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 200,
+					Defense: 15.0f
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 200,
+					Defense: 15.0f
+				},
+				TinkerData: {
+					Materials: [
+						"iron",
+						"iron",
+						"iron"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "magnetic_armor",
+					color: -3487030,
+					magnetic2_armor: 1b,
+					level: 3,
+					magnetic1_armor: 1b
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"magnetic2_armor",
+					"magnetic1_armor",
+					"leveling_armor"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b86e091e",
+		type: "item",
+		items: [{
+			id: "conarm:boots",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 237,
+					Defense: 15.0f
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 237,
+					Defense: 15.0f
+				},
+				TinkerData: {
+					Materials: [
+						"iron",
+						"iron",
+						"iron"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "magnetic_armor",
+					color: -3487030,
+					magnetic2_armor: 1b,
+					level: 3,
+					magnetic1_armor: 1b
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"magnetic2_armor",
+					"magnetic1_armor",
+					"leveling_armor"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6e726053",
+		type: "item",
+		item: {
+			id: "tconstruct:cleaver",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 552,
+					HarvestLevel: 2,
+					Attack: 8.2f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 552,
+					HarvestLevel: 2,
+					Attack: 8.2f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"iron",
+						"iron",
+						"iron",
+						"iron"
+					],
+					Modifiers: [
+						"beheading_cleaver",
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "magnetic",
+					color: -3487030,
+					level: 3,
+					magnetic1: 1b,
+					magnetic2: 1b
+				},
+				{
+					identifier: "beheading_cleaver",
+					color: 1070923,
+					level: 2
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"magnetic1",
+					"magnetic2",
+					"toolleveling"
+				]
+			}
+		}
+	}]
+}

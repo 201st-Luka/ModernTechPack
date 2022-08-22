@@ -1,0 +1,18 @@
+{
+	title: "Collect some wood",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "chopping down a tree is harder than you think",
+	text: [
+		"try to craft a flint or stone axe"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "9f607aac",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		}]
+	}]
+}

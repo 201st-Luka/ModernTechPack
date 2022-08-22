@@ -1,0 +1,164 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  AdvancedRocketryPlugin (AdvancedRocketry-1.12.2-1.7.0-232-universal.jar)
+  Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+Contact their authors BEFORE contacting forge
+
+// My bad.
+
+Time: 2/11/21 8:04 PM
+Description: Initializing game
+
+java.lang.NoSuchMethodError: appeng.api.storage.ICellRegistry.getCellInventory(Lnet/minecraft/item/ItemStack;Lappeng/api/storage/ISaveProvider;Lappeng/api/storage/IStorageChannel;)Lappeng/api/storage/IMEInventoryHandler;
+	at com.thiakil.appliedfluidics.item.ItemFluidicStorageCell.func_77624_a(ItemFluidicStorageCell.java:150)
+	at net.minecraft.item.ItemStack.func_82840_a(ItemStack.java:707)
+	at net.minecraft.client.Minecraft.lambda$populateSearchTreeManager$1(Minecraft.java:576)
+	at net.minecraft.client.Minecraft$$Lambda$362/578740992.apply(Unknown Source)
+	at net.minecraft.client.util.SearchTree.func_194042_b(SourceFile:49)
+	at net.minecraft.client.util.SearchTree.func_194043_a(SourceFile:44)
+	at net.minecraft.client.Minecraft$$Lambda$365/1945553835.accept(Unknown Source)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.client.Minecraft.func_193986_ar(Minecraft.java:590)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:529)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at com.thiakil.appliedfluidics.item.ItemFluidicStorageCell.func_77624_a(ItemFluidicStorageCell.java:150)
+	at net.minecraft.item.ItemStack.func_82840_a(ItemStack.java:707)
+	at net.minecraft.client.Minecraft.lambda$populateSearchTreeManager$1(Minecraft.java:576)
+	at net.minecraft.client.Minecraft$$Lambda$362/578740992.apply(Unknown Source)
+	at net.minecraft.client.util.SearchTree.func_194042_b(SourceFile:49)
+	at net.minecraft.client.util.SearchTree.func_194043_a(SourceFile:44)
+	at net.minecraft.client.Minecraft$$Lambda$365/1945553835.accept(Unknown Source)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.client.Minecraft.func_193986_ar(Minecraft.java:590)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:529)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1158364088 bytes (1104 MB) / 2032140288 bytes (1938 MB) up to 4772593664 bytes (4551 MB)
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx5120m -Xms256m -XX:PermSize=256m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2855 Optifine OptiFine_1.12.2_HD_U_G5 20 mods loaded, 20 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                   | Version                  | Source                                          | Signature                                |
+	|:----- |:-------------------- |:------------------------ |:----------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft            | 1.12.2                   | minecraft.jar                                   | None                                     |
+	| LCH   | mcp                  | 9.42                     | minecraft.jar                                   | None                                     |
+	| LCH   | FML                  | 8.0.99.99                | forge-1.12.2-14.23.5.2855.jar                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | forge                | 14.23.5.2855             | forge-1.12.2-14.23.5.2855.jar                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | advancedrocketrycore | 1                        | minecraft.jar                                   | None                                     |
+	| LCH   | libvulpes            | 0.4.2.-75                | LibVulpes-1.12.2-0.4.2-75-universal.jar         | None                                     |
+	| LCH   | advancedrocketry     | 1.7.0.-232               | AdvancedRocketry-1.12.2-1.7.0-232-universal.jar | None                                     |
+	| LCH   | appliedenergistics2  | rv6-stable-7             | appliedenergistics2-rv6-stable-7.jar            | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+	| LCH   | bdlib                | 1.14.3.12                | bdlib-1.14.3.12-mc1.12.2.jar                    | None                                     |
+	| LCH   | ae2stuff             | 0.7.0.4                  | ae2stuff-0.7.0.4-mc1.12.2.jar                   | None                                     |
+	| LCH   | jei                  | 4.16.1.301               | jei_1.12.2-4.16.1.301.jar                       | None                                     |
+	| LCH   | mantle               | 1.12-1.3.3.55            | Mantle-1.12-1.3.3.55.jar                        | None                                     |
+	| LCH   | tconstruct           | 1.12.2-2.13.0.183        | TConstruct-1.12.2-2.13.0.183.jar                | None                                     |
+	| LCH   | appliedfluidics      | 1.12.2-2.0.3             | AppliedFluidics-1.12.2-2.0.3.jar                | None                                     |
+	| LCH   | conarm               | 1.2.5.10                 | conarm-1.12.2-1.2.5.10.jar                      | b33d2c8df492beff56d1bbbc92da49b8ab7345a1 |
+	| LCH   | inventorytweaks      | 1.63+release.109.220f184 | InventoryTweaks-1.63.jar                        | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+	| LCH   | journeymap           | 1.12.2-5.7.1             | journeymap-1.12.2-5.7.1.jar                     | None                                     |
+	| LCH   | mousetweaks          | 2.10                     | MouseTweaks-2.10-mc1.12.2.jar                   | None                                     |
+	| LCH   | tcomplement          | 1.12.2-0.4.3             | TinkersComplement-1.12.2-0.4.3.jar              | None                                     |
+	| LCH   | tinkersjei           | 1.2                      | tinkersjei-1.2.jar                              | None                                     |
+
+	Loaded coremods (and transformers): 
+AdvancedRocketryPlugin (AdvancedRocketry-1.12.2-1.7.0-232-universal.jar)
+  zmaster587.advancedRocketry.asm.ClassTransformer
+Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 26.20.100.6911' Renderer: 'Intel(R) UHD Graphics 630'
+	AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+
+	Pulsar/tcomplement loaded Pulses: 
+		- ModuleCommons (Enabled/Forced)
+		- ModuleMelter (Enabled/Not Forced)
+		- ModuleArmor (Enabled/Not Forced)
+		- ModuleSteelworks (Enabled/Not Forced)
+		- Oredict (Enabled/Forced)
+
+	List of loaded APIs: 
+		* appliedenergistics2|API (rv6) from appliedenergistics2-rv6-stable-7.jar
+		* journeymap|client-api (1.4) from journeymap-1.12.2-5.7.1.jar
+		* journeymap|client-api-display (1.4) from journeymap-1.12.2-5.7.1.jar
+		* journeymap|client-api-event (1.4) from journeymap-1.12.2-5.7.1.jar
+		* journeymap|client-api-model (1.4) from journeymap-1.12.2-5.7.1.jar
+		* journeymap|client-api-util (1.4) from journeymap-1.12.2-5.7.1.jar
+		* JustEnoughItemsAPI (4.13.0) from jei_1.12.2-4.16.1.301.jar
+		* MouseTweaks|API (1.0) from MouseTweaks-2.10-mc1.12.2.jar
+	Launched Version: forge-14.23.5.2855
+	LWJGL: 2.9.4
+	OpenGL: Intel(R) UHD Graphics 630 GL version 4.6.0 - Build 26.20.100.6911, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 12x Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+	OptiFine Version: OptiFine_1.12.2_HD_U_G5
+	OptiFine Build: 20210124-142939
+	Render Distance Chunks: 12
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 - Build 26.20.100.6911
+	OpenGlRenderer: Intel(R) UHD Graphics 630
+	OpenGlVendor: Intel
+	CpuCount: 12

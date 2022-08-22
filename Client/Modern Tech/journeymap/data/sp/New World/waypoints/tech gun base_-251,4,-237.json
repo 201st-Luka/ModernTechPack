@@ -1,0 +1,18 @@
+{
+  "id": "tech gun base_-251,4,-237",
+  "name": "tech gun base",
+  "icon": "waypoint-normal.png",
+  "x": -251,
+  "y": 4,
+  "z": -237,
+  "r": 66,
+  "g": 76,
+  "b": 215,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

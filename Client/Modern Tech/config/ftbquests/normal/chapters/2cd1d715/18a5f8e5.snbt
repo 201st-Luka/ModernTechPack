@@ -1,0 +1,12 @@
+{
+	x: -3.5d,
+	y: 0.5d,
+	shape: "diamond",
+	tasks: [{
+		uid: "5128531a",
+		type: "item",
+		items: [{
+			item: "simplegenerators:combustion_simple"
+		}]
+	}]
+}

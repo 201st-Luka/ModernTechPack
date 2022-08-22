@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "223b4993",
+		type: "item",
+		items: [{
+			item: "rftools:dimensional_shard_ore"
+		}]
+	},
+	{
+		uid: "158fdec6",
+		type: "item",
+		items: [{
+			item: "rftools:dimensional_shard_ore 1 1"
+		}]
+	},
+	{
+		uid: "21a790ef",
+		type: "item",
+		items: [{
+			item: "rftools:dimensional_shard_ore 1 2"
+		}]
+	}]
+}

@@ -1,0 +1,64 @@
+{
+	title: "A very small armor",
+	x: -5.0d,
+	y: 7.0d,
+	dependencies: [
+		"fe8f8f78"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3a4987d8",
+		type: "item",
+		items: [{
+			id: "ic2:nano_chestplate",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "61e7fea4",
+		type: "item",
+		items: [{
+			id: "ic2:nano_leggings",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3c80dcc1",
+		type: "item",
+		items: [{
+			id: "ic2:nano_helmet",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9a3ca068",
+		type: "item",
+		items: [{
+			id: "ic2:nano_boots",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ffbd9c7b",
+		type: "item",
+		items: [{
+			id: "ic2:nano_saber",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

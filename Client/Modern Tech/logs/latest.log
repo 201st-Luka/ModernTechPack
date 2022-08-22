@@ -1,0 +1,6 @@
+[15:06:27] [Client thread/INFO] [foamfix]: Unloaded world <net.minecraft.client.multiplayer.WorldClient@2bf00cb8 0 MultiplayerChunkCache: 625, 625> is still hanging around after 60 seconds.
+[15:06:27] [Client thread/INFO] [foamfix]: This may be due to a world leak, or there is little memory pressure.
+[15:06:27] [Client thread/INFO] [foamfix]: Use the relevant FoamFix options to adjust the wait time.
+[16:23:50] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[16:23:50] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[16:23:50] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

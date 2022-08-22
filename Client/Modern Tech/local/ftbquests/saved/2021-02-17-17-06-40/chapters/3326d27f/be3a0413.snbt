@@ -1,0 +1,11 @@
+{
+	x: -2.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "a7817889",
+		type: "item",
+		items: [{
+			item: "tconstruct:ore 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,58 @@
+{
+	x: -1.0d,
+	y: -4.0d,
+	dependencies: [
+		"64306418"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "eaff91dc",
+		type: "item",
+		items: [{
+			item: "ic2:resource 1 3"
+		}]
+	},
+	{
+		uid: "d29d1ea2",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 1"
+		}]
+	},
+	{
+		uid: "efc1995c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ore 1 1"
+		}]
+	},
+	{
+		uid: "b6e89a87",
+		type: "item",
+		items: [{
+			item: "projectred-exploration:ore 1 4"
+		}]
+	},
+	{
+		uid: "36327dba",
+		type: "item",
+		items: [{
+			item: "libvulpes:ore0 1 5"
+		}]
+	},
+	{
+		uid: "9004513c",
+		type: "item",
+		items: [{
+			item: "mekanism:oreblock 1 2"
+		}]
+	},
+	{
+		uid: "3cee83a0",
+		type: "item",
+		items: [{
+			item: "techguns:basicore 1 1"
+		}]
+	}]
+}

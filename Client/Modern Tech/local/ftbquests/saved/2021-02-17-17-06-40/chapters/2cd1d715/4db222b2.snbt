@@ -1,0 +1,16 @@
+{
+	x: -6.5d,
+	y: -3.0d,
+	shape: "pentagon",
+	dependencies: [
+		"260ad450"
+	],
+	hide: true,
+	tasks: [{
+		uid: "66683386",
+		type: "item",
+		items: [{
+			item: "simplegenerators:turbine_upgradable"
+		}]
+	}]
+}

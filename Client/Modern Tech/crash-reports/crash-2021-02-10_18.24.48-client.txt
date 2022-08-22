@@ -1,0 +1,260 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  AdvancedRocketryPlugin (AdvancedRocketry-1.12.2-1.7.0-232-universal.jar)
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  EnderCorePlugin (EnderCore-1.12.2-0.5.76-core.jar)
+  ForgelinPlugin (Forgelin-1.8.4.jar)
+  MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+  OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+  Techguns Core (techguns-1.12.2-2.0.2.0_pre3.2.jar)
+  weaponlib (mw_2.0-0.4.4.6_mc1.12.2.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+Contact their authors BEFORE contacting forge
+
+// My bad.
+
+Time: 2/10/21 6:24 PM
+Description: Initializing game
+
+java.lang.NoSuchMethodError: appeng.api.storage.ICellRegistry.getCellInventory(Lnet/minecraft/item/ItemStack;Lappeng/api/storage/ISaveProvider;Lappeng/api/storage/IStorageChannel;)Lappeng/api/storage/IMEInventoryHandler;
+	at com.thiakil.appliedfluidics.item.ItemFluidicStorageCell.func_77624_a(ItemFluidicStorageCell.java:150)
+	at net.minecraft.item.ItemStack.func_82840_a(ItemStack.java:707)
+	at net.minecraft.client.Minecraft.lambda$populateSearchTreeManager$1(Minecraft.java:576)
+	at net.minecraft.client.Minecraft$$Lambda$24876/760868680.apply(Unknown Source)
+	at net.minecraft.client.util.SearchTree.func_194042_b(SourceFile:49)
+	at net.minecraft.client.util.SearchTree.func_194043_a(SourceFile:44)
+	at net.minecraft.client.Minecraft$$Lambda$24902/1747376423.accept(Unknown Source)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.client.Minecraft.func_193986_ar(Minecraft.java:590)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:529)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at com.thiakil.appliedfluidics.item.ItemFluidicStorageCell.func_77624_a(ItemFluidicStorageCell.java:150)
+	at net.minecraft.item.ItemStack.func_82840_a(ItemStack.java:707)
+	at net.minecraft.client.Minecraft.lambda$populateSearchTreeManager$1(Minecraft.java:576)
+	at net.minecraft.client.Minecraft$$Lambda$24876/760868680.apply(Unknown Source)
+	at net.minecraft.client.util.SearchTree.func_194042_b(SourceFile:49)
+	at net.minecraft.client.util.SearchTree.func_194043_a(SourceFile:44)
+	at net.minecraft.client.Minecraft$$Lambda$24902/1747376423.accept(Unknown Source)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.client.Minecraft.func_193986_ar(Minecraft.java:590)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:529)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1774272224 bytes (1692 MB) / 4538761216 bytes (4328 MB) up to 5682233344 bytes (5419 MB)
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx6096m -Xms256m -XX:PermSize=256m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2854 100 mods loaded, 100 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                                | Version                  | Source                                             | Signature                                |
+	|:----- |:--------------------------------- |:------------------------ |:-------------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft                         | 1.12.2                   | minecraft.jar                                      | None                                     |
+	| LCH   | mcp                               | 9.42                     | minecraft.jar                                      | None                                     |
+	| LCH   | FML                               | 8.0.99.99                | forge-1.12.2-14.23.5.2854.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | forge                             | 14.23.5.2854             | forge-1.12.2-14.23.5.2854.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | advancedrocketrycore              | 1                        | minecraft.jar                                      | None                                     |
+	| LCH   | openmodscore                      | 0.12.2                   | minecraft.jar                                      | None                                     |
+	| LCH   | techguns_core                     | 1.12.2-1.0               | minecraft.jar                                      | None                                     |
+	| LCH   | tweakersconstruct                 | 1.12.2-1.5.6             | tweakersconstruct-1.12.2-1.5.6.jar                 | None                                     |
+	| LCH   | ic2                               | 2.8.170-ex112            | industrialcraft-2-2.8.170-ex112.jar                | de041f9f6187debbc77034a344134053277aa3b0 |
+	| LCH   | advanced_solar_panels             | 4.3.0                    | Advanced Solar Panels-4.3.0.jar                    | None                                     |
+	| LCH   | redstoneflux                      | 2.1.1                    | RedstoneFlux-1.12-2.1.1.1-universal.jar            | None                                     |
+	| LCH   | cofhcore                          | 4.6.6                    | CoFHCore-1.12.2-4.6.6.1-universal.jar              | None                                     |
+	| LCH   | libvulpes                         | 0.4.2.-75                | LibVulpes-1.12.2-0.4.2-75-universal.jar            | None                                     |
+	| LCH   | advancedrocketry                  | 1.7.0.-232               | AdvancedRocketry-1.12.2-1.7.0-232-universal.jar    | None                                     |
+	| LCH   | ctm                               | MC1.12.2-1.0.2.31        | CTM-MC1.12.2-1.0.2.31.jar                          | None                                     |
+	| LCH   | appliedenergistics2               | rv6-stable-7             | appliedenergistics2-rv6-stable-7.jar               | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+	| LCH   | jei                               | 4.16.1.301               | jei_1.12.2-4.16.1.301.jar                          | None                                     |
+	| LCH   | chisel                            | MC1.12.2-1.0.2.45        | Chisel-MC1.12.2-1.0.2.45.jar                       | None                                     |
+	| LCH   | endercore                         | 1.12.2-0.5.76            | EnderCore-1.12.2-0.5.76.jar                        | None                                     |
+	| LCH   | codechickenlib                    | 3.2.3.358                | CodeChickenLib-1.12.2-3.2.3.358-universal.jar      | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | brandonscore                      | 2.4.19                   | BrandonsCore-1.12.2-2.4.19.214-universal.jar       | None                                     |
+	| LCH   | cofhworld                         | 1.4.0                    | CoFHWorld-1.12.2-1.4.0.1-universal.jar             | None                                     |
+	| LCH   | thermalfoundation                 | 2.6.7                    | ThermalFoundation-1.12.2-2.6.7.1-universal.jar     | None                                     |
+	| LCH   | draconicevolution                 | 2.3.27                   | Draconic-Evolution-1.12.2-2.3.27.353-universal.jar | None                                     |
+	| LCH   | thermalexpansion                  | 5.5.7                    | ThermalExpansion-1.12.2-5.5.7.1-universal.jar      | None                                     |
+	| LCH   | enderio                           | 5.2.66                   | EnderIO-1.12.2-5.2.66.jar                          | None                                     |
+	| LCH   | enderiointegrationtic             | 5.2.66                   | EnderIO-1.12.2-5.2.66.jar                          | None                                     |
+	| LCH   | mantle                            | 1.12-1.3.3.55            | Mantle-1.12-1.3.3.55.jar                           | None                                     |
+	| LCH   | tconstruct                        | 1.12.2-2.13.0.183        | TConstruct-1.12.2-2.13.0.183.jar                   | None                                     |
+	| LCH   | appliedfluidics                   | 1.12.2-2.0.3             | AppliedFluidics-1.12.2-2.0.3.jar                   | None                                     |
+	| LCH   | appliedintegrations               | 8.0.16.7                 | AppliedIntegrations-1.12.2-e2884e6f.jar            | None                                     |
+	| LCH   | buildcraftlib                     | 7.99.24.7                | buildcraft-all-7.99.24.7.jar                       | None                                     |
+	| LCH   | buildcraftcore                    | 7.99.24.7                | buildcraft-all-7.99.24.7.jar                       | None                                     |
+	| LCH   | buildcrafttransport               | 7.99.24.7                | buildcraft-all-7.99.24.7.jar                       | None                                     |
+	| LCH   | forgelin                          | 1.8.4                    | Forgelin-1.8.4.jar                                 | None                                     |
+	| LCH   | bcextrapipes                      | 1                        | bc-extra-pipes-1.12.2-1.jar                        | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCH   | bcoreprocessing                   | 1                        | bc-ore-processing-7.99.24.4-1.jar                  | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCH   | buildcraftbuilders                | 7.99.24.7                | buildcraft-all-7.99.24.7.jar                       | None                                     |
+	| LCH   | buildcraftsilicon                 | 7.99.24.7                | buildcraft-all-7.99.24.7.jar                       | None                                     |
+	| LCH   | buildcraftcompat                  | 7.99.24.7                | buildcraft-all-7.99.24.7.jar                       | None                                     |
+	| LCH   | buildcraftenergy                  | 7.99.24.7                | buildcraft-all-7.99.24.7.jar                       | None                                     |
+	| LCH   | buildcraftfactory                 | 7.99.24.7                | buildcraft-all-7.99.24.7.jar                       | None                                     |
+	| LCH   | buildcraftrobotics                | 7.99.24.7                | buildcraft-all-7.99.24.7.jar                       | None                                     |
+	| LCH   | conarm                            | 1.2.5.10                 | conarm-1.12.2-1.2.5.10.jar                         | b33d2c8df492beff56d1bbbc92da49b8ab7345a1 |
+	| LCH   | dynamictrees                      | 1.12.2-0.9.21            | DynamicTrees-1.12.2-0.9.21.jar                     | None                                     |
+	| LCH   | dynamictreestconstruct            | 1.12.2-1.2.6             | DynamicTreesTinkersConstruct-1.12.2-1.2.6.jar      | None                                     |
+	| LCH   | elevatorid                        | 1.3.14                   | ElevatorMod-1.12.2-1.3.14.jar                      | None                                     |
+	| LCH   | enderiobase                       | 5.2.66                   | EnderIO-1.12.2-5.2.66.jar                          | None                                     |
+	| LCH   | enderioconduits                   | 5.2.66                   | EnderIO-1.12.2-5.2.66.jar                          | None                                     |
+	| LCH   | enderioconduitsappliedenergistics | 5.2.66                   | EnderIO-1.12.2-5.2.66.jar                          | None                                     |
+	| LCH   | enderioconduitsopencomputers      | 5.2.66                   | EnderIO-1.12.2-5.2.66.jar                          | None                                     |
+	| LCH   | enderioconduitsrefinedstorage     | 5.2.66                   | EnderIO-1.12.2-5.2.66.jar                          | None                                     |
+	| LCH   | enderiointegrationforestry        | 5.2.66                   | EnderIO-1.12.2-5.2.66.jar                          | None                                     |
+	| LCH   | enderiointegrationticlate         | 5.2.66                   | EnderIO-1.12.2-5.2.66.jar                          | None                                     |
+	| LCH   | enderioinvpanel                   | 5.2.66                   | EnderIO-1.12.2-5.2.66.jar                          | None                                     |
+	| LCH   | enderiomachines                   | 5.2.66                   | EnderIO-1.12.2-5.2.66.jar                          | None                                     |
+	| LCH   | enderiopowertools                 | 5.2.66                   | EnderIO-1.12.2-5.2.66.jar                          | None                                     |
+	| LCH   | enderstorage                      | 2.4.6.137                | EnderStorage-1.12.2-2.4.6.137-universal.jar        | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | extrautils2                       | 1.0                      | extrautils2-1.12-1.9.9.jar                         | None                                     |
+	| LCH   | zerocore                          | 1.12.2-0.1.2.9           | zerocore-1.12.2-0.1.2.9.jar                        | None                                     |
+	| LCH   | bigreactors                       | 1.12.2-0.4.5.68          | ExtremeReactors-1.12.2-0.4.5.68.jar                | None                                     |
+	| LCH   | flansmod                          | 5.7.2                    | Flan's Mod-1.12.2-5.7.2.jar                        | None                                     |
+	| LCH   | immersiveengineering              | 0.12-98                  | ImmersiveEngineering-0.12-98.jar                   | None                                     |
+	| LCH   | immersivecables                   | 1.3.2                    | ImmersiveCables-1.12.2-1.3.2.jar                   | None                                     |
+	| LCH   | immersiveposts                    | 0.2.1                    | ImmersivePosts-0.2.1.jar                           | 0ba8738eadcf158e7fe1452255a73a022fb15feb |
+	| LCH   | immersivetech                     | 1.3.10                   | immersivetech-1.12-1.3.10.jar                      | None                                     |
+	| LCH   | inventorytweaks                   | 1.63+release.109.220f184 | InventoryTweaks-1.63.jar                           | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+	| LCH   | ironbackpacks                     | 1.12.2-3.0.8-12          | IronBackpacks-1.12.2-3.0.8-12.jar                  | None                                     |
+	| LCH   | ironchest                         | 1.12.2-7.0.67.844        | ironchest-1.12.2-7.0.72.847.jar                    | None                                     |
+	| LCH   | journeymap                        | 1.12.2-5.7.1             | journeymap-1.12.2-5.7.1.jar                        | None                                     |
+	| LCH   | mcjtylib_ng                       | 3.5.4                    | mcjtylib-1.12-3.5.4.jar                            | None                                     |
+	| LCH   | mekanism                          | 1.12.2-9.8.3.390         | Mekanism-1.12.2-9.8.3.390.jar                      | None                                     |
+	| LCH   | mekanismgenerators                | 1.12.2-9.8.3.390         | MekanismGenerators-1.12.2-9.8.3.390.jar            | None                                     |
+	| LCH   | mekanismtools                     | 1.12.2-9.8.3.390         | MekanismTools-1.12.2-9.8.3.390.jar                 | None                                     |
+	| LCH   | techguns                          | 2.0.2.0                  | techguns-1.12.2-2.0.2.0_pre3.2.jar                 | None                                     |
+	| LCH   | mekores                           | 2.0.13                   | mekores-2.0.13.jar                                 | None                                     |
+	| LCH   | moartinkers                       | 0.6.0                    | moartinkers-0.6.0.jar                              | None                                     |
+	| LCH   | numina                            | 1.12.2-1.0.38            | Numina-1.12.2-1.0.38.jar                           | None                                     |
+	| LCH   | powersuits                        | 1.12.2-1.0.46            | ModularPowersuits-1.12.2-1.0.46.jar                | None                                     |
+	| LCH   | mousetweaks                       | 2.10                     | MouseTweaks-2.10-mc1.12.2.jar                      | None                                     |
+	| LCH   | mw                                | 0.4.4.6                  | mw_2.0-0.4.4.6_mc1.12.2.jar                        | None                                     |
+	| LCH   | openmods                          | 0.12.2                   | OpenModsLib-1.12.2-0.12.2.jar                      | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+	| LCH   | openblocks                        | 1.8.1                    | OpenBlocks-1.12.2-1.8.1.jar                        | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+	| LCH   | getalltheseeds                    | 1.12a                    | Pam's Get all the Seeds! 1.12a.jar                 | None                                     |
+	| LCH   | harvestcraft                      | 1.12.2zb                 | Pam's HarvestCraft 1.12.2zg.jar                    | None                                     |
+	| LCH   | simplerecipes                     | 1.12.2c                  | Pam's Simple Recipes 1.12.2c.jar                   | None                                     |
+	| LCH   | rftools                           | 7.73                     | rftools-1.12-7.73.jar                              | None                                     |
+	| LCH   | rftoolscontrol                    | 2.0.2                    | rftoolsctrl-1.12-2.0.2.jar                         | None                                     |
+	| LCH   | rftoolsdim                        | 5.71                     | rftoolsdim-1.12-5.71.jar                           | None                                     |
+	| LCH   | rftoolspower                      | 1.2.0                    | rftoolspower-1.12-1.2.0.jar                        | None                                     |
+	| LCH   | thermaldynamics                   | 2.5.6                    | ThermalDynamics-1.12.2-2.5.6.1-universal.jar       | None                                     |
+	| LCH   | simplyjetpacks                    | 1.12.2-2.2.18.1          | SimplyJetpacks2-1.12.2-2.2.18.1.jar                | None                                     |
+	| LCH   | thermalcultivation                | 0.3.6                    | ThermalCultivation-1.12.2-0.3.6.1-universal.jar    | None                                     |
+	| LCH   | thermalinnovation                 | 0.3.6                    | ThermalInnovation-1.12.2-0.3.6.1-universal.jar     | None                                     |
+	| LCH   | tcomplement                       | 1.12.2-0.4.3             | TinkersComplement-1.12.2-0.4.3.jar                 | None                                     |
+	| LCH   | tinkersjei                        | 1.2                      | tinkersjei-1.2.jar                                 | None                                     |
+	| LCH   | tinkertoolleveling                | 1.12.2-1.1.0.DEV.b23e769 | TinkerToolLeveling-1.12.2-1.1.0.jar                | None                                     |
+	| LCH   | toughasnails                      | 3.1.0.139                | ToughAsNails-1.12.2-3.1.0.139-universal.jar        | None                                     |
+	| LCH   | matteroverdrive                   | 0.7.0.0                  | MatterOverdrive-1.12.2-0.7.1.0-universal.jar       | None                                     |
+	| LCH   | tweakersconstructpostload         | 1.12.2-1.5.6             | tweakersconstruct-1.12.2-1.5.6.jar                 | None                                     |
+
+	Loaded coremods (and transformers): 
+AdvancedRocketryPlugin (AdvancedRocketry-1.12.2-1.7.0-232-universal.jar)
+  zmaster587.advancedRocketry.asm.ClassTransformer
+IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+EnderCorePlugin (EnderCore-1.12.2-0.5.76-core.jar)
+  com.enderio.core.common.transform.EnderCoreTransformer
+  com.enderio.core.common.transform.SimpleMixinPatcher
+ForgelinPlugin (Forgelin-1.8.4.jar)
+  
+MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+  mekanism.coremod.KeybindingMigrationHelper
+OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+  openmods.core.OpenModsClassTransformer
+Techguns Core (techguns-1.12.2-2.0.2.0_pre3.2.jar)
+  techguns.core.TechgunsASMTransformer
+weaponlib (mw_2.0-0.4.4.6_mc1.12.2.jar)
+  com.vicmatskiv.weaponlib.core.WeaponlibClassTransformer
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 26.20.100.6911' Renderer: 'Intel(R) UHD Graphics 630'
+	OpenModsLib class transformers: [llama_null_fix:FINISHED],[horse_base_null_fix:FINISHED],[pre_world_render_hook:FINISHED],[player_render_hook:FINISHED],[horse_null_fix:FINISHED]
+	AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768
+	Ender IO: No known problems detected.
+	Authlib is : /D:/Users/lukae/Program%20Data/Twitch/Minecraft/Install/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
+
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!You are looking at the diagnostics information, not at the crash.       !!!
+	!!!Scroll up until you see the line with '---- Minecraft Crash Report ----'!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+		- chiselIntegration (Enabled/Not Forced)
+
+	Pulsar/tcomplement loaded Pulses: 
+		- ModuleCommons (Enabled/Forced)
+		- ModuleMelter (Enabled/Not Forced)
+		- ModuleArmor (Enabled/Not Forced)
+		- ModuleSteelworks (Enabled/Not Forced)
+		- ChiselPlugin (Enabled/Not Forced)
+		- ToolLevelingPlugin (Enabled/Not Forced)
+		- Oredict (Enabled/Forced)
+
+	Launched Version: forge-14.23.5.2854
+	LWJGL: 2.9.4
+	OpenGL: Intel(R) UHD Graphics 630 GL version 4.6.0 - Build 26.20.100.6911, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 12x Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz

@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	shape: "diamond",
+	dependencies: [
+		"89fe1cee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f58ede6d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_dust"
+		}]
+	}],
+	rewards: [{
+		uid: "c0e489fa",
+		type: "item",
+		item: "draconicevolution:info_tablet"
+	}]
+}
