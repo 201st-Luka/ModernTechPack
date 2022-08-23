@@ -81,7 +81,7 @@ var akashicTome = <akashictome:tome>.withTag(
 				tag: {
 					"akashictome:definedMod": "cookingforblockheads"
 				},
-				Damage: 1 as short
+				Damage: 0 as short
 			},
       xnet: {
         id: "xnet:xnet_manual",
@@ -149,7 +149,6 @@ var akashicTome = <akashictome:tome>.withTag(
     }
   }
 );
-
 akashicTome.addTooltip(format.aqua("A book of books/manuals/guides"));
 mods.jei.JEI.addItem(akashicTome);
 recipes.addShapeless(akashicTome, [<minecraft:cobblestone>, <minecraft:book>]);
