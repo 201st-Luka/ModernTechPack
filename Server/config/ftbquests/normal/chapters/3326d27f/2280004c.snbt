@@ -1,0 +1,23 @@
+{
+	x: -2.5d,
+	y: 6.5d,
+	dependencies: [
+		"d39e6d3b"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "b5346f0d",
+		type: "item",
+		items: [{
+			item: "tp:nether_wub_ore"
+		}]
+	},
+	{
+		uid: "d32fb741",
+		type: "item",
+		items: [{
+			item: "tp:wub_ore"
+		}]
+	}]
+}

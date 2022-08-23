@@ -1,0 +1,12 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "91ff64f5",
+		type: "item",
+		items: [{
+			item: "simplegenerators:culinary_simple"
+		}]
+	}]
+}

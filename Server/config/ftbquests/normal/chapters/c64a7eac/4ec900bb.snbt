@@ -1,0 +1,16 @@
+{
+	title: "Get iron",
+	x: 2.5d,
+	y: 0.0d,
+	description: "smelt iron in a furnace",
+	dependencies: [
+		"996f353a"
+	],
+	tasks: [{
+		uid: "8bd5ffb4",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

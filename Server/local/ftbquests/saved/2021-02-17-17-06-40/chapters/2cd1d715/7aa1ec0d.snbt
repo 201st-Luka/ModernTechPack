@@ -1,0 +1,16 @@
+{
+	x: -0.5d,
+	y: 3.0d,
+	shape: "pentagon",
+	dependencies: [
+		"98bf05a7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca38e893",
+		type: "item",
+		items: [{
+			item: "simplegenerators:soul_upgradable"
+		}]
+	}]
+}

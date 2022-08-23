@@ -1,0 +1,18 @@
+{
+	x: -4.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "fbd16e20",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 5"
+		}]
+	},
+	{
+		uid: "fa6e3011",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:ore 1 4"
+		}]
+	}]
+}

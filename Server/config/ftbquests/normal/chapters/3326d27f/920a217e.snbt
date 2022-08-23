@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	dependencies: [
+		"29648ac4"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "fbd16e20",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 5"
+		}]
+	},
+	{
+		uid: "fa6e3011",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:ore 1 4"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: 3.0d,
+	dependencies: [
+		"29648ac4"
+	],
+	tasks: [{
+		uid: "ab9f896b",
+		type: "item",
+		items: [{
+			item: "projectred-exploration:ore 1 6"
+		}]
+	}]
+}

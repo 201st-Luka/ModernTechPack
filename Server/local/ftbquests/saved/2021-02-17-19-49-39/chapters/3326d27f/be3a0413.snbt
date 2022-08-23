@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: 6.0d,
+	dependencies: [
+		"d39e6d3b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a7817889",
+		type: "item",
+		items: [{
+			item: "tconstruct:ore 1 1"
+		}]
+	}]
+}

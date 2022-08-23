@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "a56f39aa",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:ore 1 1"
+		}]
+	}]
+}

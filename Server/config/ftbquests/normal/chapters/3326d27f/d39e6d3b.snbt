@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	shape: "circle",
+	dependencies: [
+		"29648ac4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "101e2c45",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}]
+	}]
+}

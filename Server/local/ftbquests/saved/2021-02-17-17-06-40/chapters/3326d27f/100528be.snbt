@@ -1,0 +1,11 @@
+{
+	x: 2.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "a08834b6",
+		type: "item",
+		items: [{
+			item: "techguns:basicore 1 3"
+		}]
+	}]
+}

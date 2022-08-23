@@ -1,0 +1,12 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "2effca01",
+		type: "item",
+		items: [{
+			item: "simplegenerators:nether_simple"
+		}]
+	}]
+}

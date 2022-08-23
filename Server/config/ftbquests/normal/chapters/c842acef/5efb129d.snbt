@@ -1,0 +1,59 @@
+{
+	title: "Dark Knight Rises",
+	x: -5.0d,
+	y: 4.0d,
+	dependencies: [
+		"9b530175"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ad6cb3b7",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9a3c9e3a",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d0653e8",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "11d8244d",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "123ff6a8",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e9ae5cd0",
+		type: "item",
+		item: "enderio:item_material 1 14"
+	}]
+}

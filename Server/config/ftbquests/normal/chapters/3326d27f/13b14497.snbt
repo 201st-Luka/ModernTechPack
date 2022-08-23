@@ -1,0 +1,23 @@
+{
+	x: -3.5d,
+	y: -0.5d,
+	dependencies: [
+		"64306418"
+	],
+	hide: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "a55df327",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 4"
+		}]
+	},
+	{
+		uid: "25ac585d",
+		type: "item",
+		items: [{
+			item: "libvulpes:ore0 1 9"
+		}]
+	}]
+}

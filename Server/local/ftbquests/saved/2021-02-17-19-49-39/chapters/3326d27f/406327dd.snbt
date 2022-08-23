@@ -1,0 +1,15 @@
+{
+	x: -1.5d,
+	y: 3.0d,
+	dependencies: [
+		"29648ac4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e6fb366c",
+		type: "item",
+		items: [{
+			item: "matteroverdrive:tritanium_ore"
+		}]
+	}]
+}

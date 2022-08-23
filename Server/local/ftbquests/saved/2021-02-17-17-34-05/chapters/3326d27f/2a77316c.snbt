@@ -1,0 +1,32 @@
+{
+	x: -2.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "b1fdf857",
+		type: "item",
+		items: [{
+			item: "ic2:resource 1 4"
+		}]
+	},
+	{
+		uid: "16688632",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ore 1 4"
+		}]
+	},
+	{
+		uid: "a0044d33",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:ore 1 5"
+		}]
+	},
+	{
+		uid: "4de955cb",
+		type: "item",
+		items: [{
+			item: "techguns:basicore 1 4"
+		}]
+	}]
+}

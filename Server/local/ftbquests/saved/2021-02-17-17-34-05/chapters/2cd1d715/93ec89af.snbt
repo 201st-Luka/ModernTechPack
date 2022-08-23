@@ -1,0 +1,16 @@
+{
+	x: -3.5d,
+	y: -3.0d,
+	shape: "gear",
+	dependencies: [
+		"18a5f8e5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "027a7fed",
+		type: "item",
+		items: [{
+			item: "simplegenerators:ender_simple"
+		}]
+	}]
+}

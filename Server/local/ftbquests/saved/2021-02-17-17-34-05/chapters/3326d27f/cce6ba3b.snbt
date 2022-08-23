@@ -1,0 +1,18 @@
+{
+	x: -3.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "6328c096",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 7"
+		}]
+	},
+	{
+		uid: "7f5aa3f4",
+		type: "item",
+		items: [{
+			item: "libvulpes:ore0 1 10"
+		}]
+	}]
+}

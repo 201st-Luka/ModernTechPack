@@ -1,0 +1,11 @@
+{
+	x: -4.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "6077a3f2",
+		type: "item",
+		items: [{
+			item: "libvulpes:ore0 1 8"
+		}]
+	}]
+}
