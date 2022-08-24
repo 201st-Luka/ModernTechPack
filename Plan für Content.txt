@@ -5,6 +5,7 @@ mods durchspielen??
     Logistic Pipes
     Immersive Engineering
     Computer Craft
+    Open Computers
     Agri Craft
     Tech Guns
     Flan's Mod

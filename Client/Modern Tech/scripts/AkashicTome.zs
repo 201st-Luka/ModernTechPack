@@ -145,6 +145,14 @@ var akashicTome = <akashictome:tome>.withTag(
           "akashictome:definedMod": "envtech"
         },
         Damage: 0 as short
+      },
+      techreborn: {
+        id:"techreborn:techmanuel",
+        Count: 1 as byte,
+        tag: {
+          "akashicTome:definedMod": "techreborn"
+        },
+        Damage: 0 as short
       }
     }
   }
