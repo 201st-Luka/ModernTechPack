@@ -50,7 +50,7 @@ recipes.addShaped(<enderio:item_material:0>, [
 ]);
 
 recipes.remove(<thermalexpansion:frame>);
-recipes.addShaped<thermalexpansion:frame>, [
+recipes.addShaped(<thermalexpansion:frame>, [
 [<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>],
 [<ore:blockGlass>, <ore:gearTin>, <ore:blockGlass>],
 [<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>]

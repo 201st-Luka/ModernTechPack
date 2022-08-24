@@ -107,14 +107,6 @@ var akashicTome = <akashictome:tome>.withTag(
         },
         Damage: 0 as short
       },
-      rftoolsdim: {
-        id: "rftoolsdim:rftoolsdim_manual",
-        Count: 1 as byte,
-        tag: {
-          "akashictome:definedMod": "rftoolsdim"
-        },
-        Damage: 0 as short
-      },
       pneumaticcraft: {
         id: "patchouli:guide_book",
         Count: 1 as byte,
@@ -151,6 +143,62 @@ var akashicTome = <akashictome:tome>.withTag(
         Count: 1 as byte,
         tag: {
           "akashicTome:definedMod": "techreborn"
+        },
+        Damage: 0 as short
+      },
+      guideapi: {
+        id: "guideapi:woot-guide",
+        Count: 1 as byte,
+        tag: {
+        "akashicTome:definedMod": "guideapi"
+        },
+        Damage: 0 as short
+      },
+      conarm: {
+        id: "conarm:book>",
+        Count: 1 as byte,
+        tag: {
+          "akashicTome:definedMod": "conarm"
+        },
+        Damage: 0 as short
+      },
+      ftbquests: {
+        id: "ftbquests:book",
+        Count: 1 as byte,
+        tag: {
+          "akashicTome:definedMod": "ftbquests"
+        },
+        Damage: 0 as short
+      },
+      guideapi: {
+        id: "guideapi:notreepunching-guide_book",
+        Count: 1 as byte,
+        tag: {
+          "akashicTome:definedMod": "guideapi"
+        },
+        Damage: 0 as short
+      },
+      buildcraftlib: {
+        id: "buildcraftlib:guide",
+        Count: 1 as byte,
+        tag: {
+          "akashicTome:definedMod": "buildcraftlib"
+        },
+        Damage: 0 as short
+      },
+      logisticspipes: {
+        id: "logisticspipes:guide_book",
+        Count: 1 as byte,
+        tag: {
+          "akashicTome:definedMod": "logisticspipes"
+        },
+        Damage: 0 as short
+      },
+      practicallogistics2: {
+        id: "practicallogistics2:plguide",
+        Count: 1 as byte,
+        tag: {
+          "akashicTome:definedMod": "practicallogistics2"
         },
         Damage: 0 as short
       }
