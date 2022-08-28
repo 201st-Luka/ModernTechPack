@@ -59,14 +59,6 @@ var akashicTome = <akashictome:tome>.withTag(
         },
         Damage: 0 as short
       },
-      actuallyadditions: {
-				id: "actuallyadditions:item_booklet",
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "actuallyadditions"
-				},
-				Damage: 0 as short
-			},
 			opencomputers: {
 				id: "opencomputers:tool",
 				Count: 1 as byte,
@@ -155,7 +147,7 @@ var akashicTome = <akashictome:tome>.withTag(
         Damage: 0 as short
       },
       conarm: {
-        id: "conarm:book>",
+        id: "conarm:book",
         Count: 1 as byte,
         tag: {
           "akashicTome:definedMod": "conarm"
@@ -205,7 +197,9 @@ var akashicTome = <akashictome:tome>.withTag(
     }
   }
 );
+
 akashicTome.addTooltip(format.aqua("A book of books/manuals/guides"));
 mods.jei.JEI.addItem(akashicTome);
+recipes.remove(<akashictome:tome>);
 recipes.addShapeless(akashicTome, [<minecraft:cobblestone>, <minecraft:book>]);
 mods.initialinventory.InvHandler.addStartingItem(akashicTome);

@@ -83,32 +83,32 @@
     {
       "target": "orange",
       "weight": 584,
-      "id": "OD:oreCopper"
+      "id": "thermalfoundation:ore:0"
     },
     {
       "target": "gray",
       "weight": 602,
-      "id": "OD:oreTin"
+      "id": "thermalfoundation:ore:1"
     },
     {
       "target": "silver",
       "weight": 381,
-      "id": "OD:oreSilver"
+      "id": "thermalfoundation:ore:2"
     },
     {
       "target": "purple",
       "weight": 500,
-      "id": "OD:oreLead"
+      "id": "thermalfoundation:ore:3"
     },
     {
       "target": "white",
       "weight": 422,
-      "id": "OD:oreAluminum"
+      "id": "thermalfoundation:ore:4"
     },
     {
       "target": "green",
       "weight": 140,
-      "id": "OD:oreUranium"
+      "id": "nuclearcraft:ore:4"
     },
     {
       "target": "yellow",
@@ -138,17 +138,17 @@
     {
       "target": "gray",
       "weight": 232,
-      "id": "OD:oreNickel"
+      "id": "thermalfoundation:ore:5"
     },
     {
       "target": "light_blue",
       "weight": 150,
-      "id": "OD:orePlatinum"
+      "id": "thermalfoundation:ore:6"
     },
     {
       "target": "light_blue",
       "weight": 169,
-      "id": "OD:oreMithril"
+      "id": "thermalfoundation:ore:8"
     },
     {
       "target": "black",
@@ -248,12 +248,12 @@
     {
       "target": "pink",
       "weight": 186,
-      "id": "OD:oreZinc"
+      "id": "OD:oreSphalerite"
     },
     {
       "target": "white",
       "weight": 157,
-      "id": "OD:oreIridium"
+      "id": "thermalfoundation:ore:7"
     },
     {
       "target": "black",
@@ -338,7 +338,7 @@
     {
       "target": "white",
       "weight": 223,
-      "id": "OD:oreTitaniumIron"
+      "id": "OD:oreTitanium"
     },
     {
       "target": "purple",
@@ -353,7 +353,7 @@
     {
       "target": "red",
       "weight": 200,
-      "id": "OD:oreRuby"
+      "id": "projectred-exploration:ore:0"
     },
     {
       "target": "green",
@@ -378,7 +378,7 @@
     {
       "target": "blue",
       "weight": 200,
-      "id": "OD:oreSapphire"
+      "id": "projectred-exploration:ore:1"
     },
     {
       "target": "orange",
@@ -514,6 +514,21 @@
       "target": "green",
       "weight": 200,
       "id": "OD:oreEnderEssence"
+    },
+    {
+      "target": "white",
+      "weight": 100,
+      "id": "woot:stygianironore"
+    },
+    {
+      "target": "red",
+      "weight": 100,
+      "id": "techreborn:ore:5"
+    },
+    {
+      "target": "black",
+      "weight": 100,
+      "id": "matteroverdrive:tritanium_ore"
     }
   ]
 }
