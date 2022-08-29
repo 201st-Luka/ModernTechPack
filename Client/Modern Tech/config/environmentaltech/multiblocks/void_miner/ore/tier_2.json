@@ -514,6 +514,11 @@
       "target": "black",
       "weight": 100,
       "id": "matteroverdrive:tritanium_ore"
+    },
+    {
+      "target": "green",
+      "weight": 100,
+      "id": "modularforcefieldsystem:monazit_ore"
     }
   ]
 }
