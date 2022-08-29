@@ -12,7 +12,7 @@ var dupOres = [
   <practicallogistics2:sapphireore>, <techreborn:ore:3>,
   <techreborn:ore:1>, <libvulpes:ore0:10>,
   <techguns:basicore:3>,
-  <immersiveengineering:ore:1>, <libvulpes:ore0:9>, <techreborn:ore:11>, <techreborn:ore:4>
+  <immersiveengineering:ore:1>, <libvulpes:ore0:9>, <techreborn:ore:11>, <techreborn:ore:4>,
   <techreborn:ore:11>,
   <techreborn:ore:10>,
   <matteroverdrive:dilithium_ore>,
