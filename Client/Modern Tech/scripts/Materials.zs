@@ -98,3 +98,22 @@ var dupBlocks = [
 for block in dupBlocks {
   mods.jei.JEI.removeAndHide(block);
 }
+
+// nuggets
+// copper, lead, silver, nickel, tin, uranium, iridium, titanium, aluminium, platinum
+var dupNuggets = [
+  <agricraft:agri_nugget:4>, <immersiveengineering:metal:20>, <mekanism:nugget:5>, <techreborn:nuggets:4>, <techguns:itemshared:86>, <libvulpes:productnugget:4>,
+  <agricraft:agri_nugget:6>, <immersiveengineering:metal:22>, <techreborn:nuggets:8>, <techguns:itemshared:87>,
+  <agricraft:agri_nugget:7>, <immersiveengineering:metal:23>, <techreborn:nuggets:11>,
+  <agricraft:agri_nugget:9>, <immersiveengineering:metal:24>, <techreborn:nuggets:9>,
+  <agricraft:agri_nugget:5>, <mekanism:nugget:6>, <techreborn:nuggets:13>, <libvulpes:productnugget:5>,
+  <immersiveengineering:metal:25>,
+  <ic2:misc_resource:2>, <techreborn:nuggets:7>, <libvulpes:productnugget:10>,
+  <techreborn:nuggets:14>,
+  <agricraft:agri_nugget:8>, <immersiveengineering:metal:21>, <techreborn:nuggets>, <libvulpes:productnugget:9>,
+  <agricraft:agri_nugget:10>, <techreborn:nuggets:10>
+] as IItemStack[];
+
+for nugget in dupNuggets {
+  mods.jei.JEI.removeAndHide(nugget);
+}
