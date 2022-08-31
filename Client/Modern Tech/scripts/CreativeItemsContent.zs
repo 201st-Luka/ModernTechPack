@@ -5,8 +5,8 @@ import mods.contenttweaker.Item;
 import crafttweaker.item.IItemStack;
 
 // creative star
-var creativeStar = VanillaFactory.createItem("creative_star");
-creativeStar.maxStackSize = 1;
-creativeStar.rarity = "epic";
-creativeStar.glowing = true;
-creativeStar.register();
+var creativeCore = VanillaFactory.createItem("creative_core");
+creativeCore.maxStackSize = 1;
+creativeCore.rarity = "epic";
+creativeCore.glowing = true;
+creativeCore.register();
