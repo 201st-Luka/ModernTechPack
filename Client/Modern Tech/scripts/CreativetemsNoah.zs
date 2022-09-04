@@ -5,10 +5,10 @@ recipes.addShaped(<mekanism:gastank>.withTag({tier: 4}), [
 [<mekanism:atomicalloy>, <mekanism:gastank>.withTag({tier: 3}), <mekanism:atomicalloy>]
 ]);
 
-recipes.addShaped(<mekanism:machineblock2:11>, [
-[<mekanism:atomicalloy>, <mekanism:machineblock2:11>, <mekanism:atomicalloy>],
-[<mekanism:machineblock2:11>, <contenttweaker:creative_core>, <mekanism:machineblock2:11>],
-[<mekanism:atomicalloy>, <mekanism:machineblock2:11>, <mekanism:atomicalloy>]
+recipes.addShaped(<mekanism:machineblock2:11>.withTag({tier: 4}), [
+[<mekanism:atomicalloy>, <mekanism:machineblock2:11>.withTag({tier: 3}), <mekanism:atomicalloy>],
+[<mekanism:machineblock2:11>.withTag({tier: 3}), <contenttweaker:creative_core>, <mekanism:machineblock2:11>.withTag({tier: 3})],
+[<mekanism:atomicalloy>, <mekanism:machineblock2:11>.withTag({tier: 3}), <mekanism:atomicalloy>]
 ]);
 
 recipes.addShaped(<thermalexpansion:capacitor:32000>.withTag({Energy: 25000000}), [
@@ -29,12 +29,14 @@ recipes.addShaped(<extrautils2:creativechest>, [
 [<contenttweaker:creative_core>, <contenttweaker:creative_core>, <contenttweaker:creative_core>]
 ]);
 
+recipes.remove(<industrialforegoing:black_hole_tank>);
 recipes.addShaped(<industrialforegoing:black_hole_tank>, [
 [<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>],
 [<minecraft:ender_eye>, <matteroverdrive:gravitational_anomaly>, <minecraft:ender_eye>],
 [<minecraft:bucket>, <thermalexpansion:frame>, <minecraft:bucket>]
 ]);
 
+recipes.remove(<industrialforegoing:black_hole_unit>);
 recipes.addShaped(<industrialforegoing:black_hole_unit>, [
 [<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>],
 [<minecraft:ender_eye>, <matteroverdrive:gravitational_anomaly>, <minecraft:ender_eye>],
