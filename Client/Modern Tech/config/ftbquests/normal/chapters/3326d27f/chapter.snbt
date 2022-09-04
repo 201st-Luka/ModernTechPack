@@ -1,7 +1,0 @@
-{
-	title: "Mining",
-	icon: "minecraft:iron_pickaxe",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: "hexagon"
-}

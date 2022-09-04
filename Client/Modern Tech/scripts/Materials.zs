@@ -100,7 +100,7 @@ for block in dupBlocks {
 }
 
 // nuggets
-// copper, lead, silver, nickel, tin, uranium, iridium, titanium, aluminium, platinum
+// copper, lead, silver, nickel, tin, uranium, iridium, titanium, aluminium, platinum, steel
 var dupNuggets = [
   <agricraft:agri_nugget:4>, <immersiveengineering:metal:20>, <mekanism:nugget:5>, <techreborn:nuggets:4>, <techguns:itemshared:86>, <libvulpes:productnugget:4>,
   <agricraft:agri_nugget:6>, <immersiveengineering:metal:22>, <techreborn:nuggets:8>, <techguns:itemshared:87>,
@@ -111,7 +111,8 @@ var dupNuggets = [
   <ic2:misc_resource:2>, <techreborn:nuggets:7>, <libvulpes:productnugget:10>,
   <techreborn:nuggets:14>,
   <agricraft:agri_nugget:8>, <immersiveengineering:metal:21>, <techreborn:nuggets>, <libvulpes:productnugget:9>,
-  <agricraft:agri_nugget:10>, <techreborn:nuggets:10>
+  <agricraft:agri_nugget:10>, <techreborn:nuggets:10>,
+  <immersiveengineering:metal:28>, <mekanism:nugget:4>, <techreborn:nuggets:12>, <techguns:itemshared:88>, <tcomplement:materials:20>, <libvulpes:productnugget:6>
 ] as IItemStack[];
 
 for nugget in dupNuggets {
