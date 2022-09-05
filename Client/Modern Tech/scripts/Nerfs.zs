@@ -108,3 +108,39 @@ recipes.addShaped(<woot:anvil>, [
 [null, <stevescarts:blockmetalstorage:1>, null],
 [<stevescarts:blockmetalstorage:1>, <stevescarts:blockmetalstorage:1>, <stevescarts:blockmetalstorage:1>]
 ]);
+
+// Industrial Craft
+recipes.remove(<ic2:nano_leggings>.withTag({charge: 1000000.0}));
+recipes.addShaped(<ic2:nano_leggings>.withTag({charge: 1000000.0}), [
+  [<ore:plateCarbon>, <ic2:energy_crystal>, <ore:plateCarbon>],
+  [<ore:plateCarbon>, <enderio:item_stellar_alloy_leggings>, <ore:plateCarbon>],
+  [<ore:plateCarbon>, null, <ore:plateCarbon>]
+]);
+
+recipes.remove(<ic2:nano_helmet>.withTag({charge: 1000000.0}));
+recipes.addShaped(<ic2:nano_helmet>.withTag({charge: 1000000.0}), [
+  [null, <enderio:item_stellar_alloy_helmet>, null],
+  [<ore:plateCarbon>, <ic2:energy_crystal>, <ore:plateCarbon>],
+  [<ore:plateCarbon>, <ic2:nightvision_goggles>.withTag({}), <ore:plateCarbon>]
+]);
+
+recipes.remove(<ic2:nano_chestplate>.withTag({charge: 1000000.0}));
+recipes.addShaped(<ic2:nano_chestplate>.withTag({charge: 1000000.0}), [
+  [<ore:plateCarbon>, <ic2:energy_crystal>, <ore:plateCarbon>],
+  [<ore:plateCarbon>, <enderio:item_stellar_alloy_chestplate>, <ore:plateCarbon>],
+  [<ore:plateCarbon>, <ore:plateCarbon>, <ore:plateCarbon>]
+]);
+
+recipes.remove(<ic2:nano_boots>.withTag({charge: 1000000.0}));
+recipes.addShaped(<ic2:nano_boots>.withTag({charge: 1000000.0}), [
+  [null, null, null],
+  [<ore:plateCarbon>, <enderio:item_stellar_alloy_boots>, <ore:plateCarbon>],
+  [<ore:plateCarbon>, <ic2:energy_crystal>, <ore:plateCarbon>]
+]);
+
+recipes.remove(<ic2:nano_saber>.withTag({charge: 160000.0}));
+recipes.addShaped(<ic2:nano_saber>.withTag({charge: 160000.0}), [
+  [<minecraft:glowstone_dust>, <ic2:crafting:3>, null],
+  [<minecraft:glowstone_dust>, <ic2:crafting:3>, <ic2:energy_crystal>],
+  [<ore:plateCarbon>, <enderio:item_stellar_alloy_sword>, <ore:plateCarbon>]
+]);

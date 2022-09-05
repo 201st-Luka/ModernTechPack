@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 
 // ores ------------------------------------------------------------------------
-// copper, lead, silver, nickel, tin, uranium, ruby, sapphire, iridium, titanium/rutile, bauxite/sodalite/aluminium, sheldonite/platinum, peridot, ditithium, benitoite, anglesite, ender ore, wub ore
+// copper, lead, silver, nickel, tin, uranium, ruby, sapphire, iridium, titanium/rutile, bauxite/sodalite/aluminium, sheldonite/platinum, peridot, ditithium, benitoite, anglesite, ender ore
 var dupOres = [
   <immersiveengineering:ore:0>, <ic2:resource:1>, <mekanism:oreblock:1>, <nuclearcraft:ore:0>, <projectred-exploration:ore:3>, <techreborn:ore2:0>, <techguns:basicore:0>, <libvulpes:ore0:4>,
   <immersiveengineering:ore:2>, <ic2:resource:2>, <nuclearcraft:ore:2>, <techreborn:ore:12>, <techguns:basicore:2>,
@@ -20,7 +20,6 @@ var dupOres = [
   <bigreactors:orebenitoite>,
   <bigreactors:oreanglesite>,
   <tp:ender_ore>,
-  <tp:nether_wub_ore>, <tp:wub_ore>
 ] as IItemStack[];
 
 for ore in dupOres {
@@ -53,7 +52,7 @@ for ingot in dupIngots {
 }
 
 // dusts -----------------------------------------------------------------------
-// copper, lead, silver, nickel, magnesium, tin, thorium, uranium, lithium, sapphire, iridium, titanium, aluminium, platinum, steel
+// copper, lead, silver, nickel, magnesium, tin, thorium, uranium, lithium, sapphire, iridium, titanium, aluminium, platinum, steel, obsidian
 var dupDusts = [
   <enderio:item_material:26>, <immersiveengineering:metal:9>, <ic2:dust:4>, <mekanism:dust:3>, <nuclearcraft:dust:0>, <techreborn:dust:14>, <libvulpes:productdust:4>,
   <immersiveengineering:metal:11>, <ic2:dust:10>, <mekanism:dust:6>, <nuclearcraft:dust:2>, <techreborn:dust:29>,
@@ -69,7 +68,8 @@ var dupDusts = [
   <techreborn:dust:54>,
   <immersiveengineering:metal:10>, <nuclearcraft:dust:12>, <techreborn:dust:1>, <libvulpes:productdust:9>,
   <techreborn:dust:38>,
-  <bigreactors:duststeel>, <immersiveengineering:metal:17>, <mekanism:otherdust:1>, <techreborn:dust:51>, <libvulpes:productdust:6>
+  <bigreactors:duststeel>, <immersiveengineering:metal:17>, <mekanism:otherdust:1>, <techreborn:dust:51>, <libvulpes:productdust:6>,
+  <enderio:item_material:29>, <ic2:dust:12>, <mekanism:otherdust:6>, <nuclearcraft:gem_dust:3>, <techreborn:dust:35>, <tp:obsidian_dust>
 ] as IItemStack[];
 
 for dust in dupDusts {
